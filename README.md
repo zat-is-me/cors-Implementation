@@ -15,7 +15,7 @@ This application is build on Spring Boot 3.2.4
         source.registerCorsConfiguration("/**",corsConfiguration);
         return source;
    }
-2. Adding to the filter chain 
+2. Adding cors bean to the filter chain 
 
 
        @Bean
